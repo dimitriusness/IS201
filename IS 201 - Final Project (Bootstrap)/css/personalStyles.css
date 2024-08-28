@@ -1,0 +1,130 @@
+a {
+    color: inherit; /* Use the inherited color from the parent element */
+    text-decoration: none; /* Remove the underline by default */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Ensure visited links maintain the same style */
+a:visited {
+    color: inherit; /* Maintain the color after being clicked */
+    text-decoration: none; /* Ensure no underline after being clicked */
+}
+
+
+
+
+
+.background {
+    background-image: url('../assets/img/blurry\ pinkish\ background.JPG');
+    background-position: top left;
+}
+
+
+/* Style for the black navigation bar */
+.navbar {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Style for the links inside the navbar */
+.navbar a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Hover effect for the links */
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.floating_title {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+
+.floating_title_lower {
+    margin-left: 50px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+.spacing_left {
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+
+.T_of_C {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 50vh;          /* Full viewport height */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.T_of_C_title {
+    text-decoration: underline;
+    font-size: 30px;
+    display: block; 
+}
+
+.T_of_C_numbers {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+
+.T_of_C_links {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.T_of_C_numbers li {
+    margin-bottom: 10px;    /* Space between list items */
+}
+
+
+.T_of_C_numbers ul {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+
+.container {
+    display: flex;
+    align-items: center; /* Aligns items vertically centered */
+  }
+
+  .container img {
+    height: 300px; /* Adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+  }
+
+  .container p {
+    margin: 0; /* Remove default margins */
+  }
